@@ -7,7 +7,7 @@ def inp():
     n = []
     while i<5:
         l = input()
-        if methods.check(l) == True and methods.d[l]not in n:
+        if methods.check(l) == True and methods.d[l] not in n:
             n.append(methods.d[l])
             i += 1
         else:
